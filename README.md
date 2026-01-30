@@ -10,3 +10,8 @@ php artisan serve
 npm run dev
 ```
 
+### Factories
+
+```bash
+php artisan factory:properties 50 
+```

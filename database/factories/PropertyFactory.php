@@ -26,7 +26,7 @@ class PropertyFactory extends Factory
     {
         return [
             'name' => $this->faker->words(3, true),
-            'price' => $this->faker->numberBetween(1000, 10000),
+            'price' => $this->faker->numberBetween(1000, 1000000),
             'bedrooms' => $this->faker->numberBetween(1, 5),
             'bathrooms' => $this->faker->numberBetween(1, 3),
             'storeys' => $this->faker->numberBetween(1, 2),
